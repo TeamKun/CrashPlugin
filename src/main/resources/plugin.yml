@@ -1,0 +1,17 @@
+name: CrashPlugin
+version: ${project.version}
+main: net.teamfruit.crashplugin.CrashPlugin
+api-version: 1.15
+authors: [Kamesuta]
+description: クラッシュプラグイン
+
+commands:
+  crash:
+    description: クラッシュ
+    permission: crash
+    usage: /crash <selector>
+
+permissions:
+  crash:
+    description: プレイヤーをクラッシュ
+    default: op
